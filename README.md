@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/SaoureT13/Static-job-listing-masters)
+- Live Site URL: (https://saouret13.github.io/Static-job-listing-masters/)
 
 ## My process
 
@@ -71,5 +71,5 @@ datas.filter((data) => {
 
 ## Author
 
-- Website - [SAOURE Kouamé Teddy Yann Christelor](https://saouret13.github.io/Static-job-listing-masters/)
+- Website - [SAOURE Kouamé Teddy Yann Christelor](https://github.com/SaoureT13/)
 - Frontend Mentor - [@SaoureT13](https://www.frontendmentor.io/profile/SaoureT13)
