@@ -10,221 +10,222 @@ $Dark_Grayish_Cyan: hsl(180, 8%, 52%);
 $Very_DarkGrayish_Cyan: hsl(180, 14%, 20%);
 
 * {
-  box-sizing: border-box;
-  font-family: "League Spartan";
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan";
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  height: 100vh;
-  font-size: 15px;
-  background-image: url("../src/Component/images/bg-header-mobile.svg");
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-color: $Light_Grayish_Cyan;
+    height: 100vh;
+    font-size: 15px;
+    background-image: url("/images/bg-header-mobile.svg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: $Light_Grayish_Cyan;
 }
 
 .container {
-  max-width: 1200px;
-  margin: 180px 20px;
+    max-width: 1200px;
+    margin: 180px 20px;
 
-  .Cards {
-    padding: 40px 0;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    row-gap: 5em;
-  }
-
-  .Cards .job__card {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    row-gap: 2em;
-    padding: 20px;
-    border-radius: 5px;
-    background-color: #fff;
-    box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.1);
-  }
-
-  .Cards .job__card .job_card__left {
-    display: flex;
-    gap: 2em;
-  }
-
-  .Cards .job__card .job_card__left img{
-    position: absolute;
-    top: -40px;
-    width: 70px;
-  }
-
-  .Cards .job__card .master_info {
-    padding-top: 20px;
-    display: flex;
-    flex-direction: column;
-    row-gap: 1em;
-  }
-
-  .master_info .body__one {
-    * {
-      display: inline-block;
-    }
-    .company_name {
-      font-size: 1em;
-      color: $Desaturated_Dark_Cyan;
-      margin-right: 15px;
+    .Cards {
+        padding: 40px 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 5em;
     }
 
-    span {
-      padding: 6px;
-      vertical-align: middle;
-      border-radius: 20px;
+    .Cards .job__card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        row-gap: 2em;
+        padding: 20px;
+        border-radius: 5px;
+        background-color: #fff;
+        box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.1);
     }
 
-    span:nth-child(2) {
-      margin-right: 10px;
-    }
-  }
-
-  .master_info .body__two h2 {
-    font-size: 1em;
-  }
-  .master_info .body__two h2:hover {
-    color: $Desaturated_Dark_Cyan;
-    cursor: pointer;
-    transition: 0.3s;
-  }
-
-  .master_info .body__three span {
-    color: $Dark_Grayish_Cyan;
-    margin-right: 10px;
-  }
-
-  hr {
-    transform: translateY(-10px);
-  }
-
-  .Cards .job__card .job_card__right {
-    display: flex;
-    align-items: center;
-    row-gap: 1em;
-    gap: 1em;
-    flex-wrap: wrap;
-  }
-
-  .Cards .job__card .job_card__right button {
-    padding: 10px 10px;
-    font-size: 1em;
-    background-color: $Light_Grayish_Cyan;
-    border: 0px;
-    border-radius: 5px;
-    color: $Desaturated_Dark_Cyan;
-    font-weight: bold;
-    cursor: pointer;
-  }
-
-  .Cards .job__card .job_card__right button.active {
-    background-color: $Desaturated_Dark_Cyan;
-    color: #fff;
-  }
-
-  .FilterBar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    background-color: #fff;
-    border-radius: 5px;
-    padding: 10px;
-    margin-bottom: 30px;
-
-    .listFilter {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      flex-wrap: wrap;
-      row-gap: 1em;
+    .Cards .job__card .job_card__left {
+        display: flex;
+        align-items: center;
+        gap: 2em;
     }
 
-    .listFilter > div {
-      position: relative;
-      display: flex;
-      align-items: center;
-      margin-right: 10px;
-      border-radius: 5px;
-      padding: 10px;
-      background-color: $Light_Grayish_Cyan;
+    .Cards .job__card .job_card__left img {
+        position: absolute;
+        top: -30px;
+        width: 60px;
+        height: 60px;
     }
 
-    .listFilter div li {
-      color: $Desaturated_Dark_Cyan;
-      padding-right: 38px;
+    .Cards .job__card .master_info {
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1em;
     }
 
-    .listFilter div .delete {
-      position: absolute;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      right: 0;
-      width: 36px;
-      height: 100%;
-      border-top-right-radius: 5px;
-      border-bottom-right-radius: 5px;
-      background-color: $Desaturated_Dark_Cyan;
-      cursor: pointer;
-      transition: 0.3s;
+    .master_info .body__one {
+        * {
+            display: inline-block;
+        }
+        .company_name {
+            font-size: 1em;
+            color: $Desaturated_Dark_Cyan;
+            margin-right: 15px;
+        }
+
+        span {
+            padding: 6px;
+            vertical-align: middle;
+            border-radius: 20px;
+        }
+
+        span:nth-child(2) {
+            margin-right: 10px;
+        }
     }
 
-    .listFilter div .delete:hover {
-      background-color: #000;
+    .master_info .body__two h2 {
+        font-size: 1em;
+    }
+    .master_info .body__two h2:hover {
+        color: $Desaturated_Dark_Cyan;
+        cursor: pointer;
+        transition: 0.3s;
     }
 
-    .clear {
-      color: $Dark_Grayish_Cyan;
-      transition: all 0.3s;
-      cursor: pointer;
+    .master_info .body__three span {
+        color: $Dark_Grayish_Cyan;
+        margin-right: 10px;
     }
 
-    .clear:hover {
-      text-decoration: underline;
-      color: $Desaturated_Dark_Cyan;
+    hr {
+        transform: translateY(-10px);
     }
-  }
+
+    .Cards .job__card .job_card__right {
+        display: flex;
+        align-items: center;
+        row-gap: 1em;
+        gap: 1em;
+        flex-wrap: wrap;
+    }
+
+    .Cards .job__card .job_card__right button {
+        padding: 10px 10px;
+        font-size: 1em;
+        background-color: $Light_Grayish_Cyan;
+        border: 0px;
+        border-radius: 5px;
+        color: $Desaturated_Dark_Cyan;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .Cards .job__card .job_card__right button.active {
+        background-color: $Desaturated_Dark_Cyan;
+        color: #fff;
+    }
+
+    .FilterBar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        background-color: #fff;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 30px;
+
+        .listFilter {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            row-gap: 1em;
+        }
+
+        .listFilter > div {
+            position: relative;
+            display: flex;
+            align-items: center;
+            margin-right: 10px;
+            border-radius: 5px;
+            padding: 10px;
+            background-color: $Light_Grayish_Cyan;
+        }
+
+        .listFilter div li {
+            color: $Desaturated_Dark_Cyan;
+            padding-right: 38px;
+        }
+
+        .listFilter div .delete {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            right: 0;
+            width: 36px;
+            height: 100%;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            background-color: $Desaturated_Dark_Cyan;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .listFilter div .delete:hover {
+            background-color: #000;
+        }
+
+        .clear {
+            color: $Dark_Grayish_Cyan;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+
+        .clear:hover {
+            text-decoration: underline;
+            color: $Desaturated_Dark_Cyan;
+        }
+    }
 }
 
 @media only screen and (min-width: 910px) {
-  body {
-    background-image: url("../src/Component/images/bg-header-desktop.svg");
-  }
-
-  .container {
-    margin: 8vw auto;
-    padding: 0 30px ;
-
-    .Cards{
-      row-gap: 2em;
-    }
-    .Cards .job__card {
-      justify-content: space-between;
-      flex-direction: row;
-    }
-    .Cards .job__card hr{
-      display: none;
+    body {
+        background-image: url("/images/bg-header-desktop.svg");
     }
 
-    .Cards .job__card .job_card__left img{
-      position: static;
-      width: 88px;
-    }
+    .container {
+        margin: 8vw auto;
+        padding: 0 30px;
 
-    .Cards .job__card .master_info .body__two h2{
-      font-size: 1.4em;
+        .Cards {
+            row-gap: 2em;
+        }
+        .Cards .job__card {
+            justify-content: space-between;
+            flex-direction: row;
+        }
+        .Cards .job__card hr {
+            display: none;
+        }
+
+        .Cards .job__card .job_card__left img {
+            position: static;
+            width: 88px;
+            height: 88px;
+        }
+
+        .Cards .job__card .master_info .body__two h2 {
+            font-size: 1.4em;
+        }
     }
-   
-  }
 }
-

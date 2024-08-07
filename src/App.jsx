@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.scss";
 import { JobCard } from "./Component/Card.jsx";
 import { FilterBar } from "./Component/FilterBar.jsx";
-import { datas } from "./Component/datas.jsx";
+import { datas } from "./datas.jsx";
 
 function App() {
   const [data, setData] = useState(datas);
